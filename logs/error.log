@@ -619,3 +619,42 @@ Stack Trace:
 #1 {main}
 
 
+2015-06-12 13:25:44 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "articles"
+Request URL: /secobesp/articles/edit/css/style.css
+Stack Trace:
+#0 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\ORM\Table.php(1127): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp\www\secobesp\src\Controller\ArticlesController.php(42): Cake\ORM\Table->get('css')
+#2 [internal function]: App\Controller\ArticlesController->edit('css', 'style.css')
+#3 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#4 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#6 C:\wamp\www\secobesp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-12 13:29:31 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "articles"
+Request URL: /secobesp/articles/edit/css/style.css
+Stack Trace:
+#0 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\ORM\Table.php(1127): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp\www\secobesp\src\Controller\ArticlesController.php(42): Cake\ORM\Table->get('css')
+#2 [internal function]: App\Controller\ArticlesController->edit('css', 'style.css')
+#3 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#4 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#6 C:\wamp\www\secobesp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-12 13:42:01 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "articles"
+Request URL: /secobesp/articles/edit/css/style.css
+Stack Trace:
+#0 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\ORM\Table.php(1127): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp\www\secobesp\src\Controller\ArticlesController.php(42): Cake\ORM\Table->get('css')
+#2 [internal function]: App\Controller\ArticlesController->edit('css', 'style.css')
+#3 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#4 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\wamp\www\secobesp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#6 C:\wamp\www\secobesp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
